@@ -69,4 +69,59 @@ Use a lightweight `ThemeContext` that controls a `.dark` class on the `<html>` r
 
 ---
 
+## [DECISION-005] Halftone Portrait Shader: React Bits HalftoneReveal with Fallback
+
+**Date**: 2026-11-07  
+**Status**: Accepted  
+
+### Context
+To elevate the visual aesthetic of Bhagavath's editorial hero section, an interactive halftone dot matrix presentation was required that unmasks the authentic photograph on cursor movement while integrating seamlessly into the charcoal/ivory ink-wash aesthetic.
+
+### Decision
+Implement `HalftoneReveal.tsx` utilizing WebGL2 shaders (`#version 300 es`) with ping-pong framebuffers for pointer trail smoothing, dynamic ink/paper color synchronization with `useTheme()`, and an automatic fallback to standard `<img>` if WebGL2 context or compilation fails.
+
+### Rationale
+- Zero additional npm dependencies (pure WebGL2 API).
+- Dynamic monochromatic ink colors update without restarting canvas animation.
+- Respects `prefers-reduced-motion` and accessibility guidelines (`role="img"`).
+
+---
+
+## [DECISION-006] Final Interactive CTA: React Bits SlingButton with Mailto Action
+
+**Date**: 2026-11-07  
+**Status**: Accepted  
+
+### Context
+We needed a memorable, playful yet restrained final interaction positioned before the Footer to encourage visitors to reach out without introducing complex forms or backend dependencies.
+
+### Decision
+Implement `SlingButton` via `src/components/SlingButton.tsx` and `src/components/ConnectCta.tsx`, executing `mailto:bhagavathg1382008@gmail.com` on successful sling release, direct click/tap, and keyboard activation (`Enter`/`Space`).
+
+### Rationale
+- Pure client-side interaction requiring zero server endpoints.
+- Physics-based spring and particle effects feel organic within the ink-wash identity.
+- Full keyboard focusability and ARIA annotations satisfy WCAG accessibility standards.
+
+---
+
+## [DECISION-007] Continuous Full-Page Background: Fixed Viewport WebGL2 DotField
+
+**Date**: 2026-11-07  
+**Status**: Accepted  
+
+### Context
+A continuous background dot matrix was desired across the entire portfolio (from the Hero top down through the Footer). Rendering an oversized 10,000px canvas to match the scroll height would exceed GPU texture budgets, cause memory bloat, and degrade frame rates on mobile devices.
+
+### Decision
+Mount a single `<DotField />` canvas at `App.tsx` level styled with `position: fixed; inset: 0; pointer-events: none; z-index: 0;`. Global pointer listeners track cursor coordinates across the window, keeping memory strictly bounded to the viewport size (`PIXEL_BUDGET = 9e6`) while delivering seamless, unbroken coverage as the user scrolls.
+
+### Rationale
+- Constant memory footprint (~60 FPS GPU performance).
+- Zero event blocking for foreground interactive cards, inputs, and buttons.
+- Continuous coverage down to the bottom of the Footer.
+
+---
+
 *Last updated: 2026-11-07*
+

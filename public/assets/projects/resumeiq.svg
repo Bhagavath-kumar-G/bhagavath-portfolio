@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#171717"/>
+
+  <!-- Top Metadata Bar -->
+  <rect x="80" y="80" width="640" height="42" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <text x="100" y="106" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="11" font-weight="500" letter-spacing="2">RESUME INTELLIGENCE // GEMINI AI PARSER</text>
+  <circle cx="695" cy="101" r="4" fill="#C8C4B8"/>
+  <text x="615" y="106" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="10" letter-spacing="1">PARSED PDF</text>
+
+  <!-- Left: Stylized Document Wireframe -->
+  <rect x="80" y="136" width="300" height="225" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <g transform="translate(105, 155)">
+    <!-- Document Header Placeholder -->
+    <rect x="0" y="0" width="120" height="10" fill="#F2F0E9" rx="2"/>
+    <rect x="0" y="16" width="180" height="6" fill="#A3A3A3" rx="2"/>
+    <line x1="0" y1="32" x2="250" y2="32" stroke="#383838" stroke-width="1"/>
+
+    <!-- Document Section 1: Experience -->
+    <rect x="0" y="44" width="70" height="8" fill="#C8C4B8" rx="2"/>
+    <rect x="0" y="58" width="240" height="5" fill="#383838" rx="1"/>
+    <rect x="0" y="68" width="210" height="5" fill="#383838" rx="1"/>
+    <rect x="0" y="78" width="160" height="5" fill="#383838" rx="1"/>
+
+    <!-- Scanning Target Focus Frame -->
+    <rect x="-8" y="94" width="266" height="74" fill="#171717" stroke="#C8C4B8" stroke-width="1" stroke-dasharray="4 3" rx="3"/>
+    <text x="6" y="112" fill="#C8C4B8" font-family="Poppins, sans-serif" font-size="8" font-weight="600" letter-spacing="1">[EXTRACTING TECHNICAL SKILLS]</text>
+    <rect x="6" y="122" width="230" height="5" fill="#F2F0E9" rx="1"/>
+    <rect x="6" y="132" width="180" height="5" fill="#A3A3A3" rx="1"/>
+    <rect x="6" y="142" width="140" height="5" fill="#383838" rx="1"/>
+  </g>
+  <text x="100" y="345" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">INPUT: CANDIDATE_RESUME.PDF // 100% PARSED</text>
+
+  <!-- Right: AI Evaluation Metrics Panel -->
+  <rect x="395" y="136" width="325" height="225" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <text x="415" y="164" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="11" font-weight="600" letter-spacing="1">EVALUATION METRICS</text>
+
+  <!-- Key Extracted Insights -->
+  <g transform="translate(415, 185)">
+    <text x="0" y="0" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">EXPERIENCE RELEVANCE</text>
+    <text x="230" y="0" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10" font-weight="500">92%</text>
+    <rect x="0" y="8" width="285" height="5" fill="#171717" rx="2"/>
+    <rect x="0" y="8" width="262" height="5" fill="#C8C4B8" rx="2"/>
+
+    <text x="0" y="36" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">CORE STACK MATCH</text>
+    <text x="230" y="36" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10" font-weight="500">88%</text>
+    <rect x="0" y="44" width="285" height="5" fill="#171717" rx="2"/>
+    <rect x="0" y="44" width="250" height="5" fill="#C8C4B8" rx="2"/>
+
+    <text x="0" y="72" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">KEYWORD DENSITY</text>
+    <text x="230" y="72" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10" font-weight="500">95%</text>
+    <rect x="0" y="80" width="285" height="5" fill="#171717" rx="2"/>
+    <rect x="0" y="80" width="270" height="5" fill="#C8C4B8" rx="2"/>
+  </g>
+
+  <!-- Categorized Keyword Chips -->
+  <g transform="translate(415, 298)">
+    <rect x="0" y="0" width="58" height="22" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="8" y="15" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="9">React</text>
+    
+    <rect x="64" y="0" width="72" height="22" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="72" y="15" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="9">TypeScript</text>
+
+    <rect x="142" y="0" width="56" height="22" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="150" y="15" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="9">Node.js</text>
+
+    <rect x="204" y="0" width="81" height="22" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="212" y="15" fill="#C8C4B8" font-family="Poppins, sans-serif" font-size="9">Gemini AI</text>
+  </g>
+  <text x="415" y="345" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">MODEL: GOOGLE GEMINI // LATENCY: 240ms</text>
+
+  <!-- Bottom Analytics Bar -->
+  <rect x="80" y="375" width="640" height="45" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <text x="100" y="402" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="12" font-weight="500">OVERALL FIT CLASSIFICATION</text>
+  <text x="590" y="402" fill="#C8C4B8" font-family="Poppins, sans-serif" font-size="12" font-weight="600">STRONG FIT</text>
+  <rect x="310" y="394" width="255" height="8" fill="#171717" rx="3"/>
+  <rect x="310" y="394" width="242" height="8" fill="#C8C4B8" rx="3"/>
+</svg>
+

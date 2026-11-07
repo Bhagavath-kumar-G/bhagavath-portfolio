@@ -1,8 +1,8 @@
 # SPEC.md — Project Specification
 
-> **Status**: `DRAFT`
+> **Status**: `FINALIZED`
 >
-> ⚠️ **Planning Lock**: No implementation code may be written until this spec is approved and marked `FINALIZED`.
+> Planning Lock: LIFTED. Specification approved by user on 2026-11-07.
 
 ## Vision
 A modern, blazingly fast, and visually compelling personal portfolio website for **Bhagavath Kumar**. The portfolio serves as an interactive professional showcase featuring featured projects, technical skill proficiencies, career experience, and direct contact avenues—designed with responsive layouts, accessible navigation, and dark/light theme support.
@@ -53,3 +53,4 @@ A modern, blazingly fast, and visually compelling personal portfolio website for
 - I want to update my projects, skills, or job history in clean, strongly-typed data config files without modifying complex layout code.
 - I want my site to load instantly and look sharp in both dark and light modes.
 - I want a structured codebase following modular architecture to easily add a blog or interactive widgets in the future.
+

@@ -201,3 +201,4 @@ Tailwind CSS v4 uses a CSS-first configuration model without requiring a legacy 
 3. **SEO & Metadata**:
    - Complete OpenGraph and Twitter card meta headers.
    - Meaningful page titles and meta descriptions for discovery.
+

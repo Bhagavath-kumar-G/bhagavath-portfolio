@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#171717"/>
+
+  <!-- Top Metadata Bar -->
+  <rect x="80" y="80" width="640" height="42" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <text x="100" y="106" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="11" font-weight="500" letter-spacing="2">CIVIC GOVERNANCE // GRAMATHON 2026</text>
+  <circle cx="695" cy="101" r="4" fill="#C8C4B8"/>
+  <text x="618" y="106" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="10" letter-spacing="1">SOMANGALAM</text>
+
+  <!-- Left Civic Grievance Triage Matrix -->
+  <rect x="80" y="136" width="310" height="225" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <text x="100" y="164" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="11" font-weight="600" letter-spacing="1">GRIEVANCE DISPATCH</text>
+  
+  <!-- Row 1 -->
+  <g transform="translate(100, 185)">
+    <rect x="0" y="0" width="270" height="34" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <circle cx="15" cy="17" r="4" fill="#C8C4B8"/>
+    <text x="28" y="21" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10">Drainage Inflow Hazard</text>
+    <text x="210" y="21" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">DISPATCHED</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(100, 227)">
+    <rect x="0" y="0" width="270" height="34" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <circle cx="15" cy="17" r="4" fill="#A3A3A3"/>
+    <text x="28" y="21" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10">Periya Eri Rejuvenation</text>
+    <text x="220" y="21" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">IN-REVIEW</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(100, 269)">
+    <rect x="0" y="0" width="270" height="34" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <circle cx="15" cy="17" r="4" fill="#C8C4B8"/>
+    <text x="28" y="21" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10">SHG Artisan Marketplace</text>
+    <text x="235" y="21" fill="#C8C4B8" font-family="Poppins, sans-serif" font-size="9">ACTIVE</text>
+  </g>
+
+  <text x="100" y="342" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">RESOLVED SLA: 98.2% // 24H RESOLUTION TARGET</text>
+
+  <!-- Right Panchayat Service Modules Grid -->
+  <rect x="405" y="136" width="315" height="225" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <text x="425" y="164" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="11" font-weight="600" letter-spacing="1">COMMUNITY SERVICES</text>
+
+  <!-- 2x2 Clean Minimalist Service Cards -->
+  <g transform="translate(425, 185)">
+    <rect x="0" y="0" width="130" height="56" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="12" y="22" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10" font-weight="500">Women's SHG</text>
+    <text x="12" y="40" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">14 Clusters</text>
+  </g>
+
+  <g transform="translate(565, 185)">
+    <rect x="0" y="0" width="130" height="56" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="12" y="22" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10" font-weight="500">Solar Lighting</text>
+    <text x="12" y="40" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">100% Coverage</text>
+  </g>
+
+  <g transform="translate(425, 250)">
+    <rect x="0" y="0" width="130" height="56" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="12" y="22" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10" font-weight="500">Miyawaki Forest</text>
+    <text x="12" y="40" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">10,000 Trees</text>
+  </g>
+
+  <g transform="translate(565, 250)">
+    <rect x="0" y="0" width="130" height="56" fill="#171717" stroke="#383838" stroke-width="1" rx="3"/>
+    <text x="12" y="22" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="10" font-weight="500">Gram Sabha</text>
+    <text x="12" y="40" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">Democracy Portal</text>
+  </g>
+
+  <text x="425" y="342" fill="#A3A3A3" font-family="Poppins, sans-serif" font-size="9">KUNDRATHUR TALUK // KANCHIPURAM DISTRICT</text>
+
+  <!-- Bottom Analytics Bar -->
+  <rect x="80" y="375" width="640" height="45" fill="#222222" stroke="#383838" stroke-width="1" rx="4"/>
+  <text x="100" y="402" fill="#F2F0E9" font-family="Poppins, sans-serif" font-size="12" font-weight="500">CITIZEN PARTICIPATION RATE</text>
+  <text x="590" y="402" fill="#C8C4B8" font-family="Poppins, sans-serif" font-size="12" font-weight="600">89.4% ENGAGED</text>
+  <rect x="300" y="394" width="265" height="8" fill="#171717" rx="3"/>
+  <rect x="300" y="394" width="238" height="8" fill="#C8C4B8" rx="3"/>
+</svg>
+
